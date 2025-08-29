@@ -19,24 +19,24 @@
 <body class="bg-gray-100 m-[0px]">
 
     <header>
-        <nav class="flex gap-5 py-[5px] px-2 justify-between flex-wrap items-center">
-            <div class="flex items-center ju ">
+        <nav class="flex gap-5 py-[5px] px-2 justify-between items-center md:p-4 lg:p-4 ">
+            <div class="flex items-center justify-center md:justify-center lg:justify-center ">
                 <img class="h-[60px] " src="./assets/logo.png" alt="">
-                <h2 class="ml-[10px] text-[22px] font-[700] text-[#006747] leading-[20px]">
+                <h2 class="ml-[10px] text-[22px] md:text-[24] lg:text-[24] font-[700] text-[#006747] leading-[20px]">
                     <p>Emergency </p>
                     <p>Services</p>
                 </h2>
             </div>
-            <div class=" grid grid-cols-1 gap-1 ">
-                <h2 class="flex px-[25px] py-[5px] rounded-3xl gap-[10px] bg-[#41ff6b2a]">
+            <div class=" grid grid-cols-1 gap-1 md:grid-cols-3 lg:grid-cols-3 md:gap-2 lg:gap-4 ">
+                <h2 class="flex px-[25px] py-[5px] rounded-3xl gap-[10px] bg-[#41ff6b2a] font-[600] ">
                     <span id="heart-count">0</span>
                     <img class="h-[22px]" src="./assets/heart.png" alt="">
                 </h2>
-                <h2 class="flex px-[25px] py-[5px] rounded-3xl gap-[10px] bg-[#41ff6b2a]">
+                <h2 class="flex px-[25px] py-[5px] rounded-3xl gap-[10px] font-[600]  bg-[#41ff6b2a]">
                     <span id="available-coin">100</span>
                     <img class="h-[22px]" src="./assets/coin.png" alt="">
                 </h2>
-                <h2 class="flex px-[25px] py-[5px] rounded-3xl gap-[10px] bg-[#00a63e] text-white">
+                <h2 class="flex px-[25px] py-[5px] rounded-3xl gap-[10px] font-[600] bg-[#00a63e] text-white">
                     <span id="count-copy">0</span> Copy
                 </h2>
             </div>
@@ -49,8 +49,9 @@
             <div class="hero-content ">
                 <div class="text-center">
                     <img class="h-[80px] mx-[auto]" src="./assets/logo-dark.png" alt="">
-                    <h1 class="text-[30px] font-bold text-white">Emergency Service Directory</h1>
-                    <p class="text-[18px] font-[600] text-white">
+                    <h1 class="text-[30px] md:text-[35px] lg:text-[40px] font-bold text-white">Emergency Service
+                        Directory</h1>
+                    <p class="text-[18px] md:text-[20px] lg:text-[24px] font-[600] text-white">
                         Government Emergency Services at Your Fingertip – A Project by Government of the People’s
                         Republic of Bangladesh
                     </p>
@@ -61,13 +62,14 @@
     </header>
 
     <main>
-        <div class="grid gap-5 grid-cols-1 gap-7 my-[40px]  my-2">
+        <div
+            class="grid gap-5 grid-cols-1 gap-7 my-[40px]  my-2 md:flex lg:flex md:justify-between lg:justify-between md:mx-2 lg:mx-2">
 
             <!-- card-section -->
 
-            <div class="grid grid-cols-1 mx-auto gap-5">
+            <div class="grid grid-cols-1 mx-auto gap-5 my-2 md:grid-cols-3 lg:grid-cols-3 ">
 
-                <div class=" w-[300px] bg-white rounded-2xl p-[15px] shadow-md">
+                <div class=" w-[300px] bg-white rounded-2xl p-[15px] shadow-md ">
                     <div class="flex justify-between items-center mb-[10px]">
                         <img class="h-[50px] p-[10px] bg-[#FFE3E2] rounded-2xl" src="./assets/emergency.png" alt="">
                         <button> <i id=""
@@ -88,7 +90,7 @@
                     </div>
                 </div>
 
-                <div class=" w-[300px] bg-white rounded-2xl p-[15px] shadow-md">
+                <div class=" w-[300px] bg-white rounded-2xl p-[15px] shadow-md ">
                     <div class="flex justify-between items-center mb-[10px]">
                         <img class="h-[50px] p-[10px] bg-[#FFE3E2] rounded-2xl" src="./assets/police.png" alt="">
                         <button> <i id=""
@@ -110,7 +112,7 @@
                     </div>
                 </div>
 
-                <div class=" w-[300px] bg-white rounded-2xl p-[15px] shadow-md">
+                <div class=" w-[300px] bg-white rounded-2xl p-[15px] shadow-md ">
                     <div class="flex justify-between items-center mb-[10px]">
                         <img class="h-[50px] p-[10px] bg-[#FFE3E2] rounded-2xl" src="./assets/fire-service.png" alt="">
                         <button> <i id=""
@@ -261,7 +263,8 @@
 
             <!-- history section -->
 
-            <div class="history w-[300px] bg-white rounded-2xl px-[15px] py-[25px] shadow-md mx-auto">
+            <div
+                class="history w-[300px] md:w-[320px] lg:w-[330px] bg-white rounded-2xl px-[15px] py-[20px] shadow-md mx-auto mb-[10px] mt-[10px]">
                 <div class="flex justify-between items-center">
                     <div class="flex gap-1 items-center">
                         <i class="fa-regular fa-clock text-xl text-gray-400"></i>
